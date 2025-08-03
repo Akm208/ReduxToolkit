@@ -1,11 +1,13 @@
+
 import AddPostForm from "./features/posts/AddPostForm.jsx";
 import PostsList from "./features/posts/PostsList.jsx";
 
 function App() {
   return (
     <main className="App">
-      <AddPostForm />
-      <PostsList />
+      <h1>Posts</h1>
+      <AddPostForm/>
+    <PostsList/>
     </main>
   );
 }
